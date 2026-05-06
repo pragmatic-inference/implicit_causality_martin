@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8"/>
+    <title>Self-paced reading</title>
+
+    <!--JS-->
+
+	<!--JATOS-->
+	<script src="jatos.js"></script>
+
+
+
+    <style>
+        /* Center content container */
+        body {
+            margin: 0;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            background-color: #f9f9f9;
+        }
+
+        .slide {
+            max-width: 700px;
+            width: 100%;
+            text-align: left;
+            padding: 30px 40px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            border-radius: 4px;
+        }
+
+        .title_image {
+            display: block;
+            max-width: 280px;
+            margin-bottom: 20px;
+        }
+
+        #instruct-text {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            margin-top: 25px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 8px;
+        }
+
+        #legal {
+            line-height: 1.7;
+            text-align: left;
+        }
+
+        #legal b {
+            display: inline-block;
+            margin-top: 12px;
+        }
+
+        ul {
+            padding-left: 25px;
+            line-height: 1.8;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        #start_button {
+            margin-top: 20px;
+            padding: 12px 24px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #a51e37;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+
+        #start_button:hover {
+            background-color: #8a1a2f;
+        }
+    </style>
+
+</head>
+
+<body>    <!--onload="init();" inside body tag, if no jatos used--> 
+  <noscript>This task requires JavaScript.</noscript>
+
+	<div class="slide" id="i0">
+        <img src="UniversitaetTuebingen.png" alt="Universität Tübingen" id="uniTuebingenLogo" class="title_image"></img>
+        <p id="instruct-text">Vielen Dank für Ihr Interesse an unserer Studie. Bitte lesen Sie die folgenden Informationen, bevor Sie sich für eine Teilnahme entscheiden. Ihre Teilnahme ist freiwillig. Zögern Sie nicht, uns unter asya.achimova@uni-tuebingen.de zu kontaktieren, falls Sie weitere Fragen zur Studie haben. 
+
+        Kontaktinformationen<br> 
+        Dr. Asya Achimova  <br>
+        Seminar für Sprachwissenschaft  <br>
+        Keplerstr. 2, 72076 Tübingen  <br>
+        +49 (07071) 29-73953  <br>
+        <a href= "mailto:asya.achimova@uni-tuebingen.de"> </a>
+
+        Klicken Sie auf die Schaltfläche „Akzeptieren und weiter" am Ende dieser Information, um fortzufahren.  
+        </p>
+        
+        <h3>Studieninformationen</h3>
+          <p style="margin-bottom:1cm;" id="legal">
+            <b>1. Ziel der Studie</b><br>
+            In dieser Studie untersuchen wir, wie Menschen Sätze verstehen. Durch Ihre Teilnahme erhalten Sie einen Einblick in unsere Forschung. Falls Sie interessiert sind, erklären wir Ihnen gerne im Anschluss die genauen Ziele der Studie. Ihre Teilnahme hilft uns außerdem, neue Erkenntnisse über die menschliche Kognition zu gewinnen.  <br>
+            <b>2. Vertraulichkeit</b><br>
+            Die Daten werden unter einer zufällig zugewiesenen Teilnehmernummer gespeichert und somit vollständig anonymisiert auf einem Server der Universität Tübingen gesichert. Alle Personen, die Zugang zu Ihren persönlichen Daten haben, sind zur Wahrung des Datenschutzes verpflichtet. Falls die Daten aus dieser Studie veröffentlicht werden, geschieht dies in anonymisierter Form, sodass keine Rückschlüsse auf Ihre Person möglich sind. <br>
+            <b>3. Vergütung</b><br>
+            Sie erhalten 6£ für Ihre Teilnahme <br>
+            <b>4. Freiwillige Teilnahme und Rücktrittsrecht</b><br>
+            Ihre Teilnahme an dieser Studie ist vollständig freiwillig, und Sie können jederzeit ohne Angabe von Gründen zurücktreten. Dies hat keinerlei negative Konsequenzen. Falls Sie vor Abschluss der Datenerhebung aus der Studie aussteigen, werden Ihre Daten gelöscht. Sie können die Studie auf Prolific zurückgeben, ohne dass sich dies negativ auf Ihre Bewertung auswirkt. Dies ist sowohl vor Beginn des Experiments („Reservierung stornieren") als auch während des Experiments („Ohne Abschluss beenden") möglich. Bitte beachten Sie, dass eine Vergütung nur möglich ist, wenn Sie die Studie bis zum Ende abschließen. Falls technische Probleme auftreten, kontaktieren Sie uns bitte über Prolific, um die vollständige Vergütung zu erhalten.  <br>
+            <b>5. Risiken</b><br>
+            Ihre Teilnahme birgt keinerlei körperliche Risiken. <br>
+            <b>6. Datenspeicherung und Weitergabe</b> <br>
+            Wir werden diese Daten mit anderen Forschenden teilen. Zu diesem Zweck veröffentlichen wir sie auf der Website der Open Science Foundation. Falls die Studie nicht zu einer wissenschaftlichen Publikation führt, werden die Daten für maximal 5 Jahre auf einem passwortgeschützten Server der Universität gespeichert. Da die Daten vollständig anonymisiert sind, können wir sie nach der Speicherung nicht mehr löschen.  <br>
+            <b>7. Sensible personenbezogene Informationen</b><br> 
+            Da die Datenerhebung in unserer Studie anonym erfolgt, können diese Daten nicht mit Ihnen in Verbindung gebracht werden.<br>
+           
+
+    </p><h3>Einverständniserklärung</h3>
+    <p align="left">
+      </p><ul align="left" style="font-size:16px">  
+        <li>Ich bestätige, dass ich volljährig bin.</li>
+        <li>Ich stimme der Teilnahme an dieser Studie zu.</li>
+        <li>Ich weiß, dass ich jederzeit zurücktreten kann. </li>
+        <li>Ich habe keine weiteren Fragen.</li>
+        <li>Ich stimme der Datenerhebung und Verwendung meiner Daten in anonymisierter Form zu.</li>
+      </ul>
+    </div>
+</body>
+</html>

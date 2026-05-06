@@ -1,0 +1,9 @@
+﻿item,sentence,question,left,right,correct,comment,story
+2001,"Der Vater verwunderte den Sohn, weil er bis zum Ende unerfahren war und den Plan ignorierte.",Wer war unerfahren?,der Sohn,der Vater,FJ,Sowohl der Vater als auch der Sohn sind möglich.,"Der_Vater verwunderte den_Sohn,
+weil er bis zum Ende unerfahren war und den_Plan ignorierte."
+2002,"Die Mitarbeiterin desillusionierte den Chef, weil sie von Anfang an unpünktlich war und die Zeit vergaß.",Wer war unpünktlich?,die Mitarbeiterin,der Chef,F,Die Mitarbeiterin ist die richtige Antwort.,"Die_Mitarbeiterin desillusionierte den_Chef,
+weil sie von Anfang an unpünktlich war und die_Zeit vergaß."
+2003,"Der Neffe ärgerte den Onkel, weil er die ganze Zeit empfindlich war und die Ruhe suchte. ",Wer war empfindlich?,der Onkel,der Neffe,FJ,"Sowohl der Neffe als auch der Onkel sind möglich, aber der Neffe ist wahrscheinlicher.","Der_Neffe ärgerte den_Onkel,
+weil er die ganze Zeit empfindlich war und die_Ruhe suchte."
+2004,"Die Trainierin tadelte die Spielerin, weil sie am frühe Morgen kraftlos war und das Spiel verlor.",Wer war kraftlos?,die Trainerin,die Spielerin,J,Die Spielerin ist die richtige Antwort.,"Die_Trainierin tadelte die_Spielerin,
+weil sie am frühe Morgen kraftlos war und das_Spiel verlor."

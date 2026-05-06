@@ -1,0 +1,73 @@
+.sentence {
+    background-color: white;
+    clear: both;
+    line-height: 1.5;
+    justify-content: center;
+    margin: auto;
+    width: 2000px;
+    margin-top: 10%;
+}
+.ospan {
+    border-bottom: 1.2px solid #9ea4b1;
+    font-size: 26px;  /* Adjust this to your preferred size */
+    background-color: white;
+    display: inline-block;
+    white-space: nowrap;
+    margin: 0.2em;  /* Adds a bit of space between words */
+}
+.Question-choice, .Question-answer {
+    font-size: 2em;
+    padding: 1em 2em;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.Question td {
+    font-size: 2em;
+    padding: 1em 2em;
+}
+
+.DashedSentence-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.sentence {
+    margin-left: auto;
+    margin-right: auto;
+}
+.question {
+     padding-left: 0.6em;
+}
+.rating {
+    padding-left: 0.6em;
+}
+.ospan {
+     border-bottom: 1px solid #9ea4b1;
+     background-color: white;
+}
+.ispan {
+     visibility: hidden;
+}
+.practice-text {
+    color: blue; 
+    font-weight: bold;
+}
+.iphone-next {
+    clear: both;
+    background: black;
+    color: white;
+    foreground: white;
+    text-align: center;
+    display: table;
+    font-size: 20px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+    -webkit-border-radius: 5px;
+}

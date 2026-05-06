@@ -1,0 +1,47 @@
+<head>
+  <style>
+    div.box {
+      border:1px solid black; 
+      padding:0 1em 1em 1em; 
+      margin: 1em 0 1em 0;
+    }
+  </style>
+</head>
+
+<form>
+
+<h3>Umfrage nach Abschluss der Aufgabe, Teil 2: Ihr (sprachlicher) Hintergrund</h3>
+<p>Bitte füllen Sie als Nächstes diesen kurzen Fragebogen zu Ihrem sprachlichen
+Hintergrund.</p>
+
+<div class="box">
+
+<p><b>Was ist Ihre Muttersprache? (die erste Sprache, die Sie gelernt haben)</b></p>
+<textarea name="natlang" class="obligatory" rows="2" cols="40"></textarea>
+
+<p><b>Wo sind Sie aufgewachsen (Land, Bundesstaat)?</b></p>
+<textarea name="state" class="obligatory" rows="2" cols="40"></textarea>
+
+<p><b>Welche Sprache sprechen Ihre Eltern?</b></p>
+<textarea name="parentlang" class="obligatory" rows="2" cols="40"></textarea>
+
+<p><b>Was ist Ihre Hauptsprache? (die Sprache, die Sie derzeit am häufigsten verwenden)</b></p>
+<textarea name="domlang" class="obligatory" rows="2" cols="40"></textarea>
+
+<p><b>Sprechen Sie weitere Sprachen?</b></p>
+<textarea name="otherlang" class="obligatory" rows="2" cols="40"></textarea>
+
+<p><b>Was ist Ihr Geschlecht? (Geben Sie X ein, wenn Sie Ihr Geschlecht nicht angeben möchten.)</b></p>
+<textarea name="gender" class="obligatory" rows="1" cols="24"></textarea>
+
+<p><b>Wie alt sind Sie? (Geben Sie 0 ein, wenn Sie Ihr Alter nicht angeben möchten.)</b></p>
+<textarea name="age" class="obligatory" rows="1" cols="24"></textarea>
+
+<p><b>Händigkeit</b></p>
+<label><input type="radio" name="handedness" value="right" required> Rechtshändig</label><br>
+<label><input type="radio" name="handedness" value="left"> Linkshändig</label><br>
+<label><input type="radio" name="handedness" value="both"> Beidhändig</label><br>
+<label><input type="radio" name="handedness" value="prefer_not"> Möchte ich nicht angeben</label><br>
+
+</div>
+</form>
