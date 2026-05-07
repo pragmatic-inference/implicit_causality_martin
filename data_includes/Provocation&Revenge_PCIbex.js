@@ -588,6 +588,7 @@ Template("dummy", () => {
       .log("latin_list", listId)
       .log("latin_target_index", targetIndex)
       .log("latin_n_variants_for_item", nVariants)
+      .log("selected_cond_group", selectedRow.cond_group)
       .log("adj_amb", selectedRow.adj_amb)
       .log("group", selectedRow.cond_group)
       .log("item", selectedRow.item)
