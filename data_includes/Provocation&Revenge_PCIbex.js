@@ -430,22 +430,18 @@ Template("dummy", () => {
     }
 
     // Stable sorting inside each item.
-    // Prefer generated_version and explanation/Causality if available.
-    rowsForThisItem.sort((a, b) => {
-      const av = String(a.generated_version || "");
-      const bv = String(b.generated_version || "");
-      if (av !== bv) return av.localeCompare(bv);
+// In the current Critical.csv, cond_group is the true within-item condition index: 1..8.
+  rowsForThisItem.sort((a, b) => {
+    const ag = Number(a.cond_group);
+    const bg = Number(b.cond_group);
 
-      const ac = String(a.explanation || "");
-      const bc = String(b.explanation || "");
-      if (ac !== bc) return ac.localeCompare(bc);
+    if (Number.isFinite(ag) && Number.isFinite(bg)) {
+      return ag - bg;
+    }
 
-      const ag = Number(a.cond_group);
-      const bg = Number(b.cond_group);
-      if (Number.isFinite(ag) && Number.isFinite(bg)) return ag - bg;
+    return String(a.cond_group).localeCompare(String(b.cond_group));
+  });
 
-      return 0;
-    });
 
     const nVariants = rowsForThisItem.length;
     const targetIndex = (i + listId) % nVariants;
